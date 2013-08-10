@@ -8,21 +8,30 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
+#import "transactionsViewController.h"
 
-#import "SecondViewController.h"
+#import "statisticViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    
+    [self customize];
+
+    transactionsViewController *transactionsPage = [[transactionsViewController alloc] initWithNibName:@"transactionsViewController" bundle:nil];
+    
+    statisticViewController *statisticPage= [[statisticViewController alloc] initWithNibName:@"statisticViewController" bundle:nil];    
+    UINavigationController *statisticPageNav = [[UINavigationController alloc] initWithRootViewController:statisticPage];
+    
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[transactionsPage, statisticPageNav];
+    
     self.window.rootViewController = self.tabBarController;
+    
+    self.window.backgroundColor = [UIColor blackColor];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -52,6 +61,23 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - Customize
+- (void)customize
+{
+    //NavigationBar
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationBar"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys: [UIColor whiteColor], UITextAttributeTextColor, nil]];
+    NSDictionary *navbarTitleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                               [UIColor whiteColor],UITextAttributeTextColor,
+                                               [UIColor darkGrayColor], UITextAttributeTextShadowColor,
+                                               [NSValue valueWithUIOffset:UIOffsetMake(0, 1)], UITextAttributeTextShadowOffset, nil];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:navbarTitleTextAttributes];
+    
+    UIImage *bgButtonImage = [[UIImage imageNamed:@"backBtn"] resizableImageWithCapInsets:UIEdgeInsetsMake(5, 5, 5, 17)];
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:bgButtonImage forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
 }
 
 /*

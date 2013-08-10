@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  transactionsViewController.h
 //  BudgetController
 //
 //  Created by Valeriy Zinchenko on 05.08.13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface transactionsViewController : UIViewController
 
 @end

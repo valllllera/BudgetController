@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  statisticViewController.m
 //  BudgetController
 //
 //  Created by Valeriy Zinchenko on 05.08.13.
 //  Copyright (c) 2013 vexadev. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "statisticViewController.h"
 
-@interface SecondViewController ()
+@interface statisticViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation statisticViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

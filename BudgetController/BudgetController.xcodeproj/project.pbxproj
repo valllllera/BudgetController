@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C4E33B917B6719900C2F2B5 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E33B817B6719900C2F2B5 /* RobotoCondensed-Light.ttf */; };
 		8CEFA63317B04360000B41F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEFA63217B04360000B41F4 /* UIKit.framework */; };
 		8CEFA63517B04360000B41F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEFA63417B04360000B41F4 /* Foundation.framework */; };
 		8CEFA63717B04360000B41F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEFA63617B04360000B41F4 /* CoreGraphics.framework */; };
@@ -16,17 +17,22 @@
 		8CEFA64517B04360000B41F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA64417B04360000B41F4 /* Default.png */; };
 		8CEFA64717B04360000B41F4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA64617B04360000B41F4 /* Default@2x.png */; };
 		8CEFA64917B04360000B41F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA64817B04360000B41F4 /* Default-568h@2x.png */; };
-		8CEFA64C17B04360000B41F4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFA64B17B04360000B41F4 /* FirstViewController.m */; };
-		8CEFA64E17B04360000B41F4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA64D17B04360000B41F4 /* first.png */; };
-		8CEFA65017B04360000B41F4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA64F17B04360000B41F4 /* first@2x.png */; };
-		8CEFA65317B04360000B41F4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFA65217B04360000B41F4 /* SecondViewController.m */; };
-		8CEFA65517B04360000B41F4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA65417B04360000B41F4 /* second.png */; };
-		8CEFA65717B04360000B41F4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA65617B04360000B41F4 /* second@2x.png */; };
-		8CEFA65A17B04360000B41F4 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA65817B04360000B41F4 /* FirstViewController.xib */; };
-		8CEFA65D17B04360000B41F4 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA65B17B04360000B41F4 /* SecondViewController.xib */; };
+		8CEFA64C17B04360000B41F4 /* transactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFA64B17B04360000B41F4 /* transactionsViewController.m */; };
+		8CEFA65317B04360000B41F4 /* statisticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFA65217B04360000B41F4 /* statisticViewController.m */; };
+		8CEFA65A17B04360000B41F4 /* transactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA65817B04360000B41F4 /* transactionsViewController.xib */; };
+		8CEFA65D17B04360000B41F4 /* statisticViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA65B17B04360000B41F4 /* statisticViewController.xib */; };
+		8CEFA66F17B0DD46000B41F4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA66B17B0DD46000B41F4 /* first.png */; };
+		8CEFA67017B0DD46000B41F4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA66C17B0DD46000B41F4 /* first@2x.png */; };
+		8CEFA67117B0DD46000B41F4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA66D17B0DD46000B41F4 /* second.png */; };
+		8CEFA67217B0DD46000B41F4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA66E17B0DD46000B41F4 /* second@2x.png */; };
+		8CEFA67517B0DF90000B41F4 /* navigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA67317B0DF90000B41F4 /* navigationBar.png */; };
+		8CEFA67617B0DF90000B41F4 /* navigationBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA67417B0DF90000B41F4 /* navigationBar@2x.png */; };
+		8CEFA67A17B0DFBF000B41F4 /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA67817B0DFBF000B41F4 /* backBtn.png */; };
+		8CEFA67B17B0DFBF000B41F4 /* backBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CEFA67917B0DFBF000B41F4 /* backBtn@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C4E33B817B6719900C2F2B5 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
 		8CEFA62F17B04360000B41F4 /* BudgetController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEFA63217B04360000B41F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8CEFA63417B04360000B41F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,16 +46,20 @@
 		8CEFA64417B04360000B41F4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8CEFA64617B04360000B41F4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8CEFA64817B04360000B41F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8CEFA64A17B04360000B41F4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		8CEFA64B17B04360000B41F4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		8CEFA64D17B04360000B41F4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		8CEFA64F17B04360000B41F4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		8CEFA65117B04360000B41F4 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		8CEFA65217B04360000B41F4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		8CEFA65417B04360000B41F4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		8CEFA65617B04360000B41F4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		8CEFA65917B04360000B41F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		8CEFA65C17B04360000B41F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		8CEFA64A17B04360000B41F4 /* transactionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transactionsViewController.h; sourceTree = "<group>"; };
+		8CEFA64B17B04360000B41F4 /* transactionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = transactionsViewController.m; sourceTree = "<group>"; };
+		8CEFA65117B04360000B41F4 /* statisticViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = statisticViewController.h; sourceTree = "<group>"; };
+		8CEFA65217B04360000B41F4 /* statisticViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = statisticViewController.m; sourceTree = "<group>"; };
+		8CEFA65917B04360000B41F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/transactionsViewController.xib; sourceTree = "<group>"; };
+		8CEFA65C17B04360000B41F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/statisticViewController.xib; sourceTree = "<group>"; };
+		8CEFA66B17B0DD46000B41F4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = "Supporting Files/Images/tabBarImages/first.png"; sourceTree = "<group>"; };
+		8CEFA66C17B0DD46000B41F4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "Supporting Files/Images/tabBarImages/first@2x.png"; sourceTree = "<group>"; };
+		8CEFA66D17B0DD46000B41F4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = "Supporting Files/Images/tabBarImages/second.png"; sourceTree = "<group>"; };
+		8CEFA66E17B0DD46000B41F4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "Supporting Files/Images/tabBarImages/second@2x.png"; sourceTree = "<group>"; };
+		8CEFA67317B0DF90000B41F4 /* navigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navigationBar.png; path = "Supporting Files/Images/navigationBar/navigationBar.png"; sourceTree = "<group>"; };
+		8CEFA67417B0DF90000B41F4 /* navigationBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navigationBar@2x.png"; path = "Supporting Files/Images/navigationBar/navigationBar@2x.png"; sourceTree = "<group>"; };
+		8CEFA67817B0DFBF000B41F4 /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
+		8CEFA67917B0DFBF000B41F4 /* backBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backBtn@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +76,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C4E33BA17B6719F00C2F2B5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E33B817B6719900C2F2B5 /* RobotoCondensed-Light.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		8CEFA62617B04360000B41F4 = {
 			isa = PBXGroup;
 			children = (
 				8CEFA63817B04360000B41F4 /* BudgetController */,
-				8CEFA63117B04360000B41F4 /* Frameworks */,
 				8CEFA63017B04360000B41F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,23 +108,15 @@
 				8CEFA63617B04360000B41F4 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		8CEFA63817B04360000B41F4 /* BudgetController */ = {
 			isa = PBXGroup;
 			children = (
-				8CEFA64117B04360000B41F4 /* AppDelegate.h */,
-				8CEFA64217B04360000B41F4 /* AppDelegate.m */,
-				8CEFA64A17B04360000B41F4 /* FirstViewController.h */,
-				8CEFA64B17B04360000B41F4 /* FirstViewController.m */,
-				8CEFA64D17B04360000B41F4 /* first.png */,
-				8CEFA64F17B04360000B41F4 /* first@2x.png */,
-				8CEFA65117B04360000B41F4 /* SecondViewController.h */,
-				8CEFA65217B04360000B41F4 /* SecondViewController.m */,
-				8CEFA65417B04360000B41F4 /* second.png */,
-				8CEFA65617B04360000B41F4 /* second@2x.png */,
-				8CEFA65817B04360000B41F4 /* FirstViewController.xib */,
-				8CEFA65B17B04360000B41F4 /* SecondViewController.xib */,
+				8CEFA66417B04820000B41F4 /* Sources */,
+				8CEFA66517B0482B000B41F4 /* transactionsViewController */,
+				8CEFA66717B04862000B41F4 /* statisticViewController */,
 				8CEFA63917B04360000B41F4 /* Supporting Files */,
 			);
 			path = BudgetController;
@@ -116,15 +125,102 @@
 		8CEFA63917B04360000B41F4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8C4E33BA17B6719F00C2F2B5 /* Fonts */,
+				8CEFA63117B04360000B41F4 /* Frameworks */,
+				8CEFA66617B04847000B41F4 /* Images */,
 				8CEFA63A17B04360000B41F4 /* BudgetController-Info.plist */,
 				8CEFA63B17B04360000B41F4 /* InfoPlist.strings */,
 				8CEFA63E17B04360000B41F4 /* main.m */,
 				8CEFA64017B04360000B41F4 /* BudgetController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CEFA66317B0480F000B41F4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8CEFA64117B04360000B41F4 /* AppDelegate.h */,
+				8CEFA64217B04360000B41F4 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8CEFA66417B04820000B41F4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8CEFA66317B0480F000B41F4 /* AppDelegate */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		8CEFA66517B0482B000B41F4 /* transactionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8CEFA64A17B04360000B41F4 /* transactionsViewController.h */,
+				8CEFA64B17B04360000B41F4 /* transactionsViewController.m */,
+				8CEFA65817B04360000B41F4 /* transactionsViewController.xib */,
+			);
+			name = transactionsViewController;
+			sourceTree = "<group>";
+		};
+		8CEFA66617B04847000B41F4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8CEFA67717B0DFB3000B41F4 /* backBtn */,
+				8CEFA66A17B0DBCE000B41F4 /* navigationBar */,
+				8CEFA66817B0492C000B41F4 /* tabBarImages */,
+				8CEFA66917B0493B000B41F4 /* SplashScreens */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8CEFA66717B04862000B41F4 /* statisticViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8CEFA65117B04360000B41F4 /* statisticViewController.h */,
+				8CEFA65217B04360000B41F4 /* statisticViewController.m */,
+				8CEFA65B17B04360000B41F4 /* statisticViewController.xib */,
+			);
+			name = statisticViewController;
+			sourceTree = "<group>";
+		};
+		8CEFA66817B0492C000B41F4 /* tabBarImages */ = {
+			isa = PBXGroup;
+			children = (
+				8CEFA66B17B0DD46000B41F4 /* first.png */,
+				8CEFA66C17B0DD46000B41F4 /* first@2x.png */,
+				8CEFA66D17B0DD46000B41F4 /* second.png */,
+				8CEFA66E17B0DD46000B41F4 /* second@2x.png */,
+			);
+			name = tabBarImages;
+			sourceTree = "<group>";
+		};
+		8CEFA66917B0493B000B41F4 /* SplashScreens */ = {
+			isa = PBXGroup;
+			children = (
 				8CEFA64417B04360000B41F4 /* Default.png */,
 				8CEFA64617B04360000B41F4 /* Default@2x.png */,
 				8CEFA64817B04360000B41F4 /* Default-568h@2x.png */,
 			);
-			name = "Supporting Files";
+			name = SplashScreens;
+			sourceTree = "<group>";
+		};
+		8CEFA66A17B0DBCE000B41F4 /* navigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				8CEFA67317B0DF90000B41F4 /* navigationBar.png */,
+				8CEFA67417B0DF90000B41F4 /* navigationBar@2x.png */,
+			);
+			name = navigationBar;
+			sourceTree = "<group>";
+		};
+		8CEFA67717B0DFB3000B41F4 /* backBtn */ = {
+			isa = PBXGroup;
+			children = (
+				8CEFA67817B0DFBF000B41F4 /* backBtn.png */,
+				8CEFA67917B0DFBF000B41F4 /* backBtn@2x.png */,
+			);
+			name = backBtn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,12 +278,17 @@
 				8CEFA64517B04360000B41F4 /* Default.png in Resources */,
 				8CEFA64717B04360000B41F4 /* Default@2x.png in Resources */,
 				8CEFA64917B04360000B41F4 /* Default-568h@2x.png in Resources */,
-				8CEFA64E17B04360000B41F4 /* first.png in Resources */,
-				8CEFA65017B04360000B41F4 /* first@2x.png in Resources */,
-				8CEFA65517B04360000B41F4 /* second.png in Resources */,
-				8CEFA65717B04360000B41F4 /* second@2x.png in Resources */,
-				8CEFA65A17B04360000B41F4 /* FirstViewController.xib in Resources */,
-				8CEFA65D17B04360000B41F4 /* SecondViewController.xib in Resources */,
+				8CEFA65A17B04360000B41F4 /* transactionsViewController.xib in Resources */,
+				8CEFA65D17B04360000B41F4 /* statisticViewController.xib in Resources */,
+				8CEFA66F17B0DD46000B41F4 /* first.png in Resources */,
+				8CEFA67017B0DD46000B41F4 /* first@2x.png in Resources */,
+				8CEFA67117B0DD46000B41F4 /* second.png in Resources */,
+				8CEFA67217B0DD46000B41F4 /* second@2x.png in Resources */,
+				8CEFA67517B0DF90000B41F4 /* navigationBar.png in Resources */,
+				8CEFA67617B0DF90000B41F4 /* navigationBar@2x.png in Resources */,
+				8CEFA67A17B0DFBF000B41F4 /* backBtn.png in Resources */,
+				8CEFA67B17B0DFBF000B41F4 /* backBtn@2x.png in Resources */,
+				8C4E33B917B6719900C2F2B5 /* RobotoCondensed-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +301,8 @@
 			files = (
 				8CEFA63F17B04360000B41F4 /* main.m in Sources */,
 				8CEFA64317B04360000B41F4 /* AppDelegate.m in Sources */,
-				8CEFA64C17B04360000B41F4 /* FirstViewController.m in Sources */,
-				8CEFA65317B04360000B41F4 /* SecondViewController.m in Sources */,
+				8CEFA64C17B04360000B41F4 /* transactionsViewController.m in Sources */,
+				8CEFA65317B04360000B41F4 /* statisticViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,20 +317,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8CEFA65817B04360000B41F4 /* FirstViewController.xib */ = {
+		8CEFA65817B04360000B41F4 /* transactionsViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8CEFA65917B04360000B41F4 /* en */,
 			);
-			name = FirstViewController.xib;
+			name = transactionsViewController.xib;
 			sourceTree = "<group>";
 		};
-		8CEFA65B17B04360000B41F4 /* SecondViewController.xib */ = {
+		8CEFA65B17B04360000B41F4 /* statisticViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8CEFA65C17B04360000B41F4 /* en */,
 			);
-			name = SecondViewController.xib;
+			name = statisticViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -332,6 +433,7 @@
 				8CEFA66217B04360000B41F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

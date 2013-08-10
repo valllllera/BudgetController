@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  transactionsViewController.m
 //  BudgetController
 //
 //  Created by Valeriy Zinchenko on 05.08.13.
 //  Copyright (c) 2013 vexadev. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "transactionsViewController.h"
 
-@interface FirstViewController ()
+@interface transactionsViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation transactionsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,14 +26,12 @@
 							
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [super viewDidLoad];	
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  statisticViewController.h
 //  BudgetController
 //
 //  Created by Valeriy Zinchenko on 05.08.13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface statisticViewController : UIViewController
 
 @end
