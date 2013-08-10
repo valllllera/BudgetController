@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8C4E33B917B6719900C2F2B5 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E33B817B6719900C2F2B5 /* RobotoCondensed-Light.ttf */; };
+		8C4E33C017B676A600C2F2B5 /* tabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E33BF17B676A600C2F2B5 /* tabBarView.m */; };
+		8C4E33C217B676BB00C2F2B5 /* tabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E33C117B676BB00C2F2B5 /* tabBarView.xib */; };
+		8CD3F6B517B678D600AE8D1B /* tabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3F6B417B678D600AE8D1B /* tabBar@2x.png */; };
+		8CD3F6B717B67B8800AE8D1B /* uptrend.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3F6B617B67B8800AE8D1B /* uptrend.png */; };
+		8CD3F6BD17B67C1F00AE8D1B /* logInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD3F6BB17B67C1F00AE8D1B /* logInViewController.m */; };
+		8CD3F6BE17B67C1F00AE8D1B /* logInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3F6BC17B67C1F00AE8D1B /* logInViewController.xib */; };
+		8CD3F6C017B67C6500AE8D1B /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD3F6BF17B67C6500AE8D1B /* bg.png */; };
 		8CEFA63317B04360000B41F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEFA63217B04360000B41F4 /* UIKit.framework */; };
 		8CEFA63517B04360000B41F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEFA63417B04360000B41F4 /* Foundation.framework */; };
 		8CEFA63717B04360000B41F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEFA63617B04360000B41F4 /* CoreGraphics.framework */; };
@@ -33,6 +40,15 @@
 
 /* Begin PBXFileReference section */
 		8C4E33B817B6719900C2F2B5 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		8C4E33BE17B676A600C2F2B5 /* tabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarView.h; sourceTree = "<group>"; };
+		8C4E33BF17B676A600C2F2B5 /* tabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarView.m; sourceTree = "<group>"; };
+		8C4E33C117B676BB00C2F2B5 /* tabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tabBarView.xib; sourceTree = "<group>"; };
+		8CD3F6B417B678D600AE8D1B /* tabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabBar@2x.png"; path = "Supporting Files/Images/tabBar/tabBar@2x.png"; sourceTree = "<group>"; };
+		8CD3F6B617B67B8800AE8D1B /* uptrend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uptrend.png; sourceTree = "<group>"; };
+		8CD3F6BA17B67C1F00AE8D1B /* logInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logInViewController.h; sourceTree = "<group>"; };
+		8CD3F6BB17B67C1F00AE8D1B /* logInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logInViewController.m; sourceTree = "<group>"; };
+		8CD3F6BC17B67C1F00AE8D1B /* logInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = logInViewController.xib; sourceTree = "<group>"; };
+		8CD3F6BF17B67C6500AE8D1B /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = "Supporting Files/Images/bg/bg.png"; sourceTree = "<group>"; };
 		8CEFA62F17B04360000B41F4 /* BudgetController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEFA63217B04360000B41F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8CEFA63417B04360000B41F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +100,61 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
+		8C4E33BB17B6752800C2F2B5 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CD3F6B817B67BF000AE8D1B /* logInViewController */,
+				8CEFA66517B0482B000B41F4 /* transactionsViewController */,
+				8CEFA66717B04862000B41F4 /* statisticViewController */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
+		8C4E33BC17B6756F00C2F2B5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E33BD17B6757700C2F2B5 /* tabBar */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		8C4E33BD17B6757700C2F2B5 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E33BE17B676A600C2F2B5 /* tabBarView.h */,
+				8C4E33BF17B676A600C2F2B5 /* tabBarView.m */,
+				8C4E33C117B676BB00C2F2B5 /* tabBarView.xib */,
+			);
+			name = tabBar;
+			sourceTree = "<group>";
+		};
+		8CD3F6B317B678C500AE8D1B /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8CD3F6B617B67B8800AE8D1B /* uptrend.png */,
+				8CD3F6B417B678D600AE8D1B /* tabBar@2x.png */,
+			);
+			name = tabBar;
+			sourceTree = "<group>";
+		};
+		8CD3F6B817B67BF000AE8D1B /* logInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8CD3F6BA17B67C1F00AE8D1B /* logInViewController.h */,
+				8CD3F6BB17B67C1F00AE8D1B /* logInViewController.m */,
+				8CD3F6BC17B67C1F00AE8D1B /* logInViewController.xib */,
+			);
+			name = logInViewController;
+			sourceTree = "<group>";
+		};
+		8CD3F6C117B67C6800AE8D1B /* bg */ = {
+			isa = PBXGroup;
+			children = (
+				8CD3F6BF17B67C6500AE8D1B /* bg.png */,
+			);
+			name = bg;
+			sourceTree = "<group>";
+		};
 		8CEFA62617B04360000B41F4 = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				8CEFA66417B04820000B41F4 /* Sources */,
-				8CEFA66517B0482B000B41F4 /* transactionsViewController */,
-				8CEFA66717B04862000B41F4 /* statisticViewController */,
 				8CEFA63917B04360000B41F4 /* Supporting Files */,
 			);
 			path = BudgetController;
@@ -148,7 +217,9 @@
 		8CEFA66417B04820000B41F4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8C4E33BC17B6756F00C2F2B5 /* views */,
 				8CEFA66317B0480F000B41F4 /* AppDelegate */,
+				8C4E33BB17B6752800C2F2B5 /* viewControllers */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -166,6 +237,8 @@
 		8CEFA66617B04847000B41F4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				8CD3F6C117B67C6800AE8D1B /* bg */,
+				8CD3F6B317B678C500AE8D1B /* tabBar */,
 				8CEFA67717B0DFB3000B41F4 /* backBtn */,
 				8CEFA66A17B0DBCE000B41F4 /* navigationBar */,
 				8CEFA66817B0492C000B41F4 /* tabBarImages */,
@@ -289,6 +362,11 @@
 				8CEFA67A17B0DFBF000B41F4 /* backBtn.png in Resources */,
 				8CEFA67B17B0DFBF000B41F4 /* backBtn@2x.png in Resources */,
 				8C4E33B917B6719900C2F2B5 /* RobotoCondensed-Light.ttf in Resources */,
+				8C4E33C217B676BB00C2F2B5 /* tabBarView.xib in Resources */,
+				8CD3F6B517B678D600AE8D1B /* tabBar@2x.png in Resources */,
+				8CD3F6B717B67B8800AE8D1B /* uptrend.png in Resources */,
+				8CD3F6BE17B67C1F00AE8D1B /* logInViewController.xib in Resources */,
+				8CD3F6C017B67C6500AE8D1B /* bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +381,8 @@
 				8CEFA64317B04360000B41F4 /* AppDelegate.m in Sources */,
 				8CEFA64C17B04360000B41F4 /* transactionsViewController.m in Sources */,
 				8CEFA65317B04360000B41F4 /* statisticViewController.m in Sources */,
+				8C4E33C017B676A600C2F2B5 /* tabBarView.m in Sources */,
+				8CD3F6BD17B67C1F00AE8D1B /* logInViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
